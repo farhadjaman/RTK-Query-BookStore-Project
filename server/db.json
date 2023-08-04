@@ -1,0 +1,121 @@
+{
+  "books": [
+    {
+      "name": "Slow Horses (Deluxe Edition)",
+      "author": "Mick Herron",
+      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
+      "price": 14,
+      "rating": 3,
+      "featured": false,
+      "id": 1
+    },
+    {
+      "name": "The Last Thing He Told Me: A Novel",
+      "author": "Laura Dave",
+      "thumbnail": "https://m.media-amazon.com/images/P/1501171348.01._SCLZZZZZZZ_SX500_.jpg",
+      "price": 13.99,
+      "rating": 4,
+      "featured": false,
+      "id": 2
+    },
+    {
+      "name": "Eloquent JavaScript, 3rd Edition",
+      "author": "Marijn Haverbeke",
+      "thumbnail": "https://m.media-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "price": 23.99,
+      "rating": 4,
+      "featured": true,
+      "id": 3
+    },
+    {
+      "name": "Tom Lake: A Reese’s Book Club Pick",
+      "author": "Ann Patchett",
+      "thumbnail": "https://m.media-amazon.com/images/P/B0BL126WSH.01._SCLZZZZZZZ_SX500_.jpg",
+      "price": 20.99,
+      "rating": 4.3,
+      "featured": true,
+      "id": 4
+    },
+    {
+      "name": "Pineapple Street: A Novel",
+      "author": "Jenny Jackson",
+      "thumbnail": "https://m.media-amazon.com/images/I/51Os4JFEvdL._SX329_BO1,204,203,200_.jpg",
+      "price": 17.36,
+      "rating": 4,
+      "featured": false,
+      "id": 5
+    },
+    {
+      "name": "Hello Beautiful (Oprah's Book Club): A Novel",
+      "author": "ANN Napolitano",
+      "thumbnail": "https://m.media-amazon.com/images/I/518W7M50eiL._SX327_BO1,204,203,200_.jpg",
+      "price": 17.28,
+      "rating": 4.4,
+      "featured": false,
+      "id": 6
+    },
+    {
+      "name": "The Cloisters: A Novel",
+      "author": "Katy Hays",
+      "thumbnail": "https://m.media-amazon.com/images/I/51hhnALPBIL._SX329_BO1,204,203,200_.jpg",
+      "price": 25.99,
+      "rating": 4.6,
+      "featured": true,
+      "id": 7
+    },
+    {
+      "name": "Remarkably Bright Creatures",
+      "author": "Shelby Van Pelt",
+      "thumbnail": "https://m.media-amazon.com/images/I/51fMaH1tRyL._SX329_BO1,204,203,200_.jpg",
+      "price": 19.99,
+      "rating": 4.5,
+      "featured": true,
+      "id": 8
+    },
+    {
+      "name": "Lessons in Chemistry",
+      "author": "Bonnie Garmus",
+      "thumbnail": "https://m.media-amazon.com/images/I/41UG6tNeHBL._SX334_BO1,204,203,200_.jpg",
+      "price": 20.99,
+      "rating": 4.7,
+      "featured": true,
+      "id": 9
+    },
+    {
+      "name": "The Maid: A Novel ",
+      "author": "Nita Prose",
+      "thumbnail": "https://m.media-amazon.com/images/I/41pTqRlersL._SX322_BO1,204,203,200_.jpg",
+      "price": 18.99,
+      "rating": 4,
+      "featured": true,
+      "id": 10
+    },
+    {
+      "name": "The Assassin's Betrayal",
+      "author": "Auston King",
+      "thumbnail": "https://m.media-amazon.com/images/I/41CD4dlZN-L._SX331_BO1,204,203,200_.jpg",
+      "price": 16.99,
+      "rating": 4.5,
+      "featured": true,
+      "id": 11
+    },
+    {
+      "name": "Hunter's Games",
+      "author": "",
+      "thumbnail": "https://m.media-amazon.com/images/I/41aqbuH5ZdL._SX311_BO1,204,203,200_.jpg",
+      "price": 23.99,
+      "rating": 4.7,
+      "featured": true,
+      "id": 12
+    },
+    {
+      "name": "True Conviction: A Thriller",
+      "author": "James P. Sumner ",
+      "thumbnail": "https://m.media-amazon.com/images/I/41+Mhlkmq1L._SX311_BO1,204,203,200_.jpg",
+      "price": 16.99,
+      "rating": 4.3,
+      "featured": true,
+      "id": 13
+    }
+  ]
+}
