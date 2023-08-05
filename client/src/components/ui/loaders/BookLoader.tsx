@@ -1,4 +1,4 @@
-export default function VideoLoader() {
+export default function BookLoader() {
     return (
         <div className="w-full col-span-12 sm:col-span-6 md:col-span-3 flex flex-col animate-pulse">
             <div className="relative">
