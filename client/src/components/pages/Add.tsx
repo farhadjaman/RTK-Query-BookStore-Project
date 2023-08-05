@@ -1,9 +1,21 @@
+import { useAddBookMutation } from '../../app/api/apiSlice';
+import Error from '../ui/Error';
+
 const Add = () => {
+  const [addBook, { isLoading, isError, isSuccess }] = useAddBookMutation();
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const data = Object.fromEntries(formData.entries());
+    addBook(data);
+  };
+
   return (
     <div className="container">
       <div className="p-8 overflow-hidden bg-white shadow-cardShadow rounded-md max-w-xl mx-auto">
         <h4 className="mb-8 text-xl font-bold text-center">Add New Book</h4>
-        <form className="book-form">
+        <form className="book-form" onSubmit={handleSubmit}>
           <div className="space-y-2">
             <label htmlFor="lws-bookName">Book Name</label>
             <input
@@ -76,10 +88,17 @@ const Add = () => {
             </label>
           </div>
 
-          <button type="submit" className="submit" id="lws-submit">
+          <button
+            type="submit"
+            className="submit bg-slate-100 text-gray-800"
+            id="lws-submit"
+          >
             Add Book
           </button>
         </form>
+        {isLoading && <p>Loading...</p>}
+        {isError && <Error error="There is an Error while adding new book" />}
+        {isSuccess && <p>Book Added Successfully</p>}
       </div>
     </div>
   );

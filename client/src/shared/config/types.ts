@@ -7,3 +7,8 @@ export interface Book {
   featured: boolean;
   id: number;
 }
+
+export interface BookReducerState {
+  filterType: string;
+  searchQuery: Array<string>;
+}
